@@ -135,6 +135,17 @@ header {
     z-index: 2;
     line-height: 1.6;
     margin-bottom: 10px;
+    margin-top: 12px;
+}
+
+@media(max-width:1399px) {
+    .start h2 {
+        margin-top: 0;
+    }
+
+    .start h1 {
+        font-size: 60px;
+    }
 }
 
 .first-img img {
@@ -292,6 +303,7 @@ header {
     background-size: cover;
     background-position: center center;
     margin-top: 20px;
+    
 }
 
 .post-light,
